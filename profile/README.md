@@ -152,7 +152,7 @@
         <img src="https://github.com/lyeonj.png" width="110" height="110" alt="이연재 GitHub 프로필" />
       </a><br />
       <b>이연재</b><br />
-      <sub>🏫 성신여대 </sub><br />
+      <sub>🏫 숙명여대 </sub><br />
       <sub>Frontend Developer</sub><br />
       <a href="https://github.com/lyeonj"><sub>@lyeonj</sub></a>
     </td>
