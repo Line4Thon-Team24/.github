@@ -10,6 +10,17 @@
 
 </div>
 
+## 📌 Project Information
+
+| 항목 | 내용 |
+| :--- | :--- |
+| 📞 **프로젝트명** | 따르릉 (Ttareureung) |
+| 🗓️ **개발 기간** | 2026.11.06 ~ 2026.11.20 |
+| 🚀 **배포 주소** | [따르릉 바로가기](https://ttareureung.vercel.app/) |
+| 💻 **Frontend** | [GitHub](https://github.com/Line4Thon-Team24/TTAREUREUNG-CLIENT) |
+| ⚙️ **Backend** | [GitHub](https://github.com/Line4Thon-Team24/TTAREUREUNG-SERVER) |
+| 🦁 **소속** | 멋쟁이사자처럼 14기 · 4호선톤 24팀 |
+
 ---
 
 ## 💚 About 따르릉
@@ -171,18 +182,55 @@
 
 **멋쟁이사자처럼 14기 · 4호선톤 24팀**
 
-| 이름 | 담당 영역 | 역할 |
-| :---: | --- | :---: |
-| **양희창** | 로그인 및 시니어 기능 | Backend |
-| **천유진** | 배포 및 보호자 기능 | Backend |
+### 💻 Frontend
 
-<!-- 프론트엔드 팀원 이름 및 GitHub ID가 확인되면 위 표에 추가하세요. -->
+<table>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://github.com/lyeonj">
+        <img src="https://github.com/lyeonj.png" width="110" height="110" alt="이연재 GitHub 프로필" />
+      </a><br />
+      <b>이연재</b><br />
+      <sub>🏫 성신여대 </sub><br />
+      <sub>Frontend Developer</sub><br />
+      <a href="https://github.com/lyeonj"><sub>@lyeonj</sub></a>
+    </td>
+    <td align="center" width="220">
+      <a href="https://github.com/seungminng12">
+        <img src="https://github.com/seungminng12.png" width="110" height="110" alt="김승민 GitHub 프로필" />
+      </a><br />
+      <b>김승민</b><br />
+      <sub>🏫 서경대 </sub><br />
+      <sub>Frontend Developer</sub><br />
+      <a href="https://github.com/seungminng12"><sub>@seungminng12</sub></a>
+    </td>
+  </tr>
+</table>
 
-## 🔗 Repositories
+### ⚙️ Backend
 
-<!-- 조직명과 실제 레포지토리 경로 확인 후 아래 링크를 채워주세요. -->
-- **Frontend:** 링크 추가 예정
-- **Backend:** 링크 추가 예정
+<table>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://github.com/hxx-dev">
+        <img src="https://github.com/hxx-dev.png" width="110" height="110" alt="양희창 GitHub 프로필" />
+      </a><br />
+      <b>양희창</b><br />
+      <sub>🏫 서경대 </sub><br />
+      <sub>Backend Developer</sub><br />
+      <a href="https://github.com/hxx-dev"><sub>@hxx-dev</sub></a>
+    </td>
+    <td align="center" width="220">
+      <a href="https://github.com/yulmoo75">
+        <img src="https://github.com/yulmoo75.png" width="110" height="110" alt="천유진 GitHub 프로필" />
+      </a><br />
+      <b>천유진</b><br />
+      <sub>🏫 덕성여대 </sub><br />
+      <sub>Backend Developer</sub><br />
+      <a href="https://github.com/yulmoo75"><sub>@yulmoo75</sub></a>
+    </td>
+  </tr>
+</table>
 
 ## 🎯 Our Vision
 
