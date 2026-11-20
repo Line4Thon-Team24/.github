@@ -72,117 +72,72 @@
 
 ---
 
+
 ## 🛠 Tech Stack
 
 ### 💻 Frontend
 
-<div>
-<img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 19" />
-<img src="https://img.shields.io/badge/TypeScript_6.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 6.0" />
-<img src="https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 8" />
-<img src="https://img.shields.io/badge/React_Router_7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router 7" />
-<img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4" />
-<img src="https://img.shields.io/badge/Axios_1-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios 1" />
-<img src="https://img.shields.io/badge/Lucide_React-18181B?style=for-the-badge&logo=lucide&logoColor=white" alt="lucide-react" />
-</div>
-
-| 기술 | 적용 영역 |
-| --- | --- |
-| **React 19 · TypeScript 6.0** | 전체 화면 및 타입 기반 UI 개발 |
-| **Vite 8** | 로컬 개발 서버 및 프로덕션 빌드 |
-| **React Router 7** | `createBrowserRouter`, 페이지 이동, 라우트 가드 |
-| **Tailwind CSS 4** | UI 스타일링 및 `@theme` 디자인 토큰 |
-| **Axios 1** | API 클라이언트, 토큰 재발급 인터셉터 |
-| **lucide-react** | UI 아이콘 |
-
-#### Browser APIs & PWA
-
-| 기술 | 적용 영역 |
-| --- | --- |
-| **Service Worker + Web Push (VAPID)** | 보호자 푸시 알림 수신 및 알림 클릭 시 화면 이동 |
-| **Notification API** | 보호자 대상 알림 권한 요청 |
-| **Web App Manifest** | 홈 화면 설치 및 앱 아이콘 |
-| **Web Speech API (TTS / STT)** | 시니어 음성 안내 및 음성 입력 |
-| **MediaDevices / Camera API** | 약·처방전 촬영 (`getUserMedia`, `capture`) |
-| **sessionStorage** | 선택한 보호자·시니어 프로필 유지 |
-
-#### Frontend Tools
-
 <p align="left">
-<img src="https://img.shields.io/badge/ESLint_10-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint 10" />
-<img src="https://img.shields.io/badge/Prettier_3-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="Prettier 3" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript_6.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
 </p>
 
-- **Code Quality** — ESLint 10, typescript-eslint, react-hooks, react-refresh, Prettier 3 및 Tailwind 클래스 정렬 플러그인
-- **Local HTTPS** — `@vitejs/plugin-basic-ssl` 기반 카메라·푸시 기능 테스트
-- **Deployment & Design** — Vercel (`vercel.json`), Figma
+### 📚 Frontend Library
+
+<p align="left">
+  <img src="https://img.shields.io/badge/React_Router_7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lucide_React-18181B?style=for-the-badge&logo=lucide&logoColor=white" />
+</p>
 
 ### ⚙️ Backend
 
 <p align="left">
-<img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21" />
-<img src="https://img.shields.io/badge/Spring_Boot_4.1.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot 4.1.2" />
-<img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
-<img src="https://img.shields.io/badge/MySQL_8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL 8.0" />
-<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security" />
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot_4.1.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
 </p>
 
-| 구분 | 기술 및 역할 |
-| --- | --- |
-| **Language & Framework** | Java 21, Spring Boot 4.1.2, Gradle |
-| **Persistence** | Spring Data JPA (Hibernate), MySQL 8.0 (`utf8mb4`), `ddl-auto: update` |
-| **Validation & Utils** | Spring Validation, Jackson 3, Lombok |
-| **Security** | Spring Security, OAuth2 Resource Server, JWT (HS256 / Nimbus), BCrypt |
-| **Token Management** | Access Token 30분, Refresh Token 7일 (HttpOnly 쿠키·회전) |
-| **HTTP Security** | CORS 설정 및 `X-Requested-With`를 이용한 refresh/logout CSRF 방어 |
-
-### 🤖 AI · External Services
+### 🗄️ Database
 
 <p align="left">
-<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
-<img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" alt="Amazon S3" />
+  <img src="https://img.shields.io/badge/MySQL_8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
-| 기술 | 적용 영역 |
-| --- | --- |
-| **Google Gemini API** | 처방전·약봉투 인식, 복용 약 사진 판독 |
-| **AWS S3** | Presigned URL 기반 파일 저장 (키 미설정 시 서버 디스크 및 서명 링크 대체) |
-| **Web Push (VAPID)** | RFC 8291 `aes128gcm` 암호화 기반 푸시 |
-| **Spring Scheduling** | 복용 시간 알림을 위한 1분 주기 스케줄러 |
-| **Spring RestClient · Java HttpClient** | 외부 HTTP 통신 |
-
-### ☁️ Infrastructure & DevOps
+### 🤖 AI & External Services
 
 <p align="left">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" alt="AWS EC2" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/Docker_Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Hub" />
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web_Push-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </p>
 
-| 기술 | 적용 영역 |
-| --- | --- |
-| **Docker / Docker Compose** | Temurin 21 기반 멀티 스테이지 빌드, 컨테이너 운영 |
-| **Docker Hub** | 멀티 아키텍처 이미지 레지스트리 |
-| **AWS EC2 (Ubuntu)** | 백엔드 애플리케이션 호스팅 |
-| **Nginx** | HTTPS 및 리버스 프록시 |
-| **GitHub Actions (CI)** | PR / `develop` 브랜치 빌드·테스트, MySQL 서비스 컨테이너 |
-| **GitHub Actions (CD)** | `main` 푸시 → 이미지 빌드·푸시 → EC2 SSH → `docker compose up -d` |
-| **CodeRabbit** | 코드 리뷰 |
+### ☁️ Deployment & DevOps
 
-### 🧪 Testing & API Documentation
+<p align="left">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
 
-| 도구 | 적용 영역 |
-| --- | --- |
-| **JUnit 5 · Spring Boot Test · MockMvc** | 백엔드 통합 테스트 **272개** |
-| **springdoc-openapi 3.2.0** | Swagger UI 기반 API 문서 |
-| **Spring Boot Actuator** | Health Check |
+### 🧰 Code Quality & Collaboration
+
+<p align="left">
+  <img src="https://img.shields.io/badge/ESLint_10-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prettier_3-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/CodeRabbit-FF570A?style=for-the-badge" />
+</p>
 
 ---
+
 
 ## 👥 Team Members
 
