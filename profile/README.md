@@ -56,8 +56,6 @@
 - **📅 보호자 일정 관리** — 보호자 화면에서 복용 일정 수정
 - **👨‍👩‍👧‍👦 여러 보호자 등록** — 가족 및 돌봄 담당자의 공동 관리
 
-> 위 핵심 기능과 아래 시나리오는 IR Deck의 **서비스 목표·기획**을 담았습니다. 개발에 사용한 기술과 개별 기능의 운영 배포 여부가 모두 동일하다는 의미는 아닙니다.
-
 ## 💬 User Scenario
 
 복용 시간을 놓친 시니어에게 다시 안내하고, 확인된 복용 상태를 여러 보호자에게 전달하는 사용 흐름입니다.
@@ -110,10 +108,12 @@
 
 #### Frontend Tools
 
+<p align="left">
 <img src="https://img.shields.io/badge/ESLint_10-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint 10" />
 <img src="https://img.shields.io/badge/Prettier_3-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="Prettier 3" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+</p>
 
 - **Code Quality** — ESLint 10, typescript-eslint, react-hooks, react-refresh, Prettier 3 및 Tailwind 클래스 정렬 플러그인
 - **Local HTTPS** — `@vitejs/plugin-basic-ssl` 기반 카메라·푸시 기능 테스트
@@ -121,12 +121,14 @@
 
 ### ⚙️ Backend
 
+<p align="left">
 <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21" />
 <img src="https://img.shields.io/badge/Spring_Boot_4.1.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot 4.1.2" />
 <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
 <img src="https://img.shields.io/badge/MySQL_8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL 8.0" />
 <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security" />
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+</p>
 
 | 구분 | 기술 및 역할 |
 | --- | --- |
@@ -139,8 +141,10 @@
 
 ### 🤖 AI · External Services
 
+<p align="left">
 <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
 <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" alt="Amazon S3" />
+</p>
 
 | 기술 | 적용 영역 |
 | --- | --- |
@@ -152,11 +156,13 @@
 
 ### ☁️ Infrastructure & DevOps
 
+<p align="left">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" alt="AWS EC2" />
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 <img src="https://img.shields.io/badge/Docker_Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Hub" />
+</p>
 
 | 기술 | 적용 영역 |
 | --- | --- |
